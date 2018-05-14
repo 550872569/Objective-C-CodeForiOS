@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  CodeDebug
+//
+//  Created by sogou-Yan on 17/5/23.
+//  Copyright © 2017年 sogou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#pragma mark- NSLog DEBUG模式&release模式
+#ifdef DEBUG
+#define NSLog(format, ...) printf("\n[%s] %s [line %d] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define NSLog(format, ...)
+#endif
+
+
+#endif
+
+#endif /* PrefixHeader_pch */
