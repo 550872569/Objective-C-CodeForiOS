@@ -18,6 +18,12 @@
 		8DAF3A4820A99BA8008A7E19 /* PersonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF3A4620A99BA8008A7E19 /* PersonBlock.m */; };
 		8DAF3A4920A99BA8008A7E19 /* PersonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF3A4620A99BA8008A7E19 /* PersonBlock.m */; };
 		8DAF3A4A20A99BA8008A7E19 /* PersonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF3A4620A99BA8008A7E19 /* PersonBlock.m */; };
+		8DBB35DB20B3D81F00820F5B /* ObjClangAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB35DA20B3D81F00820F5B /* ObjClangAttributes.m */; };
+		8DBB35DE20B3D88100820F5B /* ChildObjClangAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB35DD20B3D88100820F5B /* ChildObjClangAttributes.m */; };
+		8DBB35E120B3D8CC00820F5B /* ObjRequires_super.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB35E020B3D8CC00820F5B /* ObjRequires_super.m */; };
+		8DBB35E420B3D98E00820F5B /* ObjBoxable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB35E320B3D98E00820F5B /* ObjBoxable.m */; };
+		8DBB35E820B3E1BD00820F5B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBB35E720B3E1BD00820F5B /* HomeKit.framework */; };
+		8DBB35EB20B3E4D400820F5B /* HomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB35EA20B3E4D400820F5B /* HomeKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,18 @@
 		8DAF3A3E20A997FB008A7E19 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8DAF3A4620A99BA8008A7E19 /* PersonBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonBlock.m; sourceTree = "<group>"; };
 		8DAF3A4720A99BA8008A7E19 /* PersonBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBlock.h; sourceTree = "<group>"; };
+		8DBB35D920B3D81F00820F5B /* ObjClangAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjClangAttributes.h; sourceTree = "<group>"; };
+		8DBB35DA20B3D81F00820F5B /* ObjClangAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjClangAttributes.m; sourceTree = "<group>"; };
+		8DBB35DC20B3D88100820F5B /* ChildObjClangAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildObjClangAttributes.h; sourceTree = "<group>"; };
+		8DBB35DD20B3D88100820F5B /* ChildObjClangAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildObjClangAttributes.m; sourceTree = "<group>"; };
+		8DBB35DF20B3D8CC00820F5B /* ObjRequires_super.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjRequires_super.h; sourceTree = "<group>"; };
+		8DBB35E020B3D8CC00820F5B /* ObjRequires_super.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjRequires_super.m; sourceTree = "<group>"; };
+		8DBB35E220B3D98E00820F5B /* ObjBoxable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjBoxable.h; sourceTree = "<group>"; };
+		8DBB35E320B3D98E00820F5B /* ObjBoxable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjBoxable.m; sourceTree = "<group>"; };
+		8DBB35E520B3E1BD00820F5B /* Objective-C-Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Objective-C-Code.entitlements"; sourceTree = "<group>"; };
+		8DBB35E720B3E1BD00820F5B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		8DBB35E920B3E4D400820F5B /* HomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeKit.h; sourceTree = "<group>"; };
+		8DBB35EA20B3E4D400820F5B /* HomeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBB35E820B3E1BD00820F5B /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +108,7 @@
 				8DAF3A2020A997CE008A7E19 /* Objective-C-CodeTests */,
 				8DAF3A2B20A997CE008A7E19 /* Objective-C-CodeUITests */,
 				8DAF3A0620A997CE008A7E19 /* Products */,
+				8DBB35E620B3E1BD00820F5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,12 +125,23 @@
 		8DAF3A0720A997CE008A7E19 /* Objective-C-Code */ = {
 			isa = PBXGroup;
 			children = (
+				8DBB35E520B3E1BD00820F5B /* Objective-C-Code.entitlements */,
 				8DAF3A0820A997CE008A7E19 /* AppDelegate.h */,
 				8DAF3A0920A997CE008A7E19 /* AppDelegate.m */,
 				8DAF3A0B20A997CE008A7E19 /* ViewController.h */,
 				8DAF3A0C20A997CE008A7E19 /* ViewController.m */,
 				8DAF3A4720A99BA8008A7E19 /* PersonBlock.h */,
 				8DAF3A4620A99BA8008A7E19 /* PersonBlock.m */,
+				8DBB35D920B3D81F00820F5B /* ObjClangAttributes.h */,
+				8DBB35DA20B3D81F00820F5B /* ObjClangAttributes.m */,
+				8DBB35DC20B3D88100820F5B /* ChildObjClangAttributes.h */,
+				8DBB35DD20B3D88100820F5B /* ChildObjClangAttributes.m */,
+				8DBB35DF20B3D8CC00820F5B /* ObjRequires_super.h */,
+				8DBB35E020B3D8CC00820F5B /* ObjRequires_super.m */,
+				8DBB35E220B3D98E00820F5B /* ObjBoxable.h */,
+				8DBB35E320B3D98E00820F5B /* ObjBoxable.m */,
+				8DBB35E920B3E4D400820F5B /* HomeKit.h */,
+				8DBB35EA20B3E4D400820F5B /* HomeKit.m */,
 				8DAF3A1620A997CE008A7E19 /* Info.plist */,
 				8DAF3A1720A997CE008A7E19 /* main.m */,
 				8DAF3A3A20A997EA008A7E19 /* Images.xcassets */,
@@ -135,6 +166,14 @@
 				8DAF3A2E20A997CE008A7E19 /* Info.plist */,
 			);
 			path = "Objective-C-CodeUITests";
+			sourceTree = "<group>";
+		};
+		8DBB35E620B3E1BD00820F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DBB35E720B3E1BD00820F5B /* HomeKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +244,11 @@
 					8DAF3A0420A997CE008A7E19 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					8DAF3A1C20A997CE008A7E19 = {
 						CreatedOnToolsVersion = 9.2;
@@ -272,8 +316,13 @@
 			files = (
 				8DAF3A0D20A997CE008A7E19 /* ViewController.m in Sources */,
 				8DAF3A1820A997CE008A7E19 /* main.m in Sources */,
+				8DBB35DB20B3D81F00820F5B /* ObjClangAttributes.m in Sources */,
+				8DBB35DE20B3D88100820F5B /* ChildObjClangAttributes.m in Sources */,
 				8DAF3A4820A99BA8008A7E19 /* PersonBlock.m in Sources */,
+				8DBB35E120B3D8CC00820F5B /* ObjRequires_super.m in Sources */,
 				8DAF3A0A20A997CE008A7E19 /* AppDelegate.m in Sources */,
+				8DBB35E420B3D98E00820F5B /* ObjBoxable.m in Sources */,
+				8DBB35EB20B3E4D400820F5B /* HomeKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +468,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-Code/Objective-C-Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JC253LEU6;
 				INFOPLIST_FILE = "Objective-C-Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.yanhangpus1028;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogou.yanhangpu-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -434,12 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Objective-C-Code/Objective-C-Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JC253LEU6;
 				INFOPLIST_FILE = "Objective-C-Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.yanhangpus1028;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sogou.yanhangpu-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
